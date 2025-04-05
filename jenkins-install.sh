@@ -8,7 +8,7 @@ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 
 sudo yum upgrade
 
-sudo dnf install java-19-amazon-corretto -y
+sudo dnf install java-21-amazon-corretto -y
 
 sudo yum install jenkins -y
 
