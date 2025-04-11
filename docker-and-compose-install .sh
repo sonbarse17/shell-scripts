@@ -16,7 +16,7 @@ sudo usermod -aG docker jenkins
 newgrp docker
 
 # Change Docker socket permissions
-sudo chmod 666 /var/run/docker.sock
+sudo chmod 777 /var/run/docker.sock
 
 # Install Docker Compose
 # Get the latest release of Docker Compose (adjust version as needed)
